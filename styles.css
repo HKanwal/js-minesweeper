@@ -1,0 +1,49 @@
+html {
+    height: 100vh;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#game-container {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#form-container {
+    margin-top: 20px;
+}
+
+.square-covered {
+    height: 30px;
+    width: 30px;
+    background-color: grey;
+    border: 5px outset rgb(112, 112, 112);
+}
+
+.square-uncovered {
+    height: 38px;
+    width: 38px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkblue;
+    border: 1px solid rgb(119, 119, 119);
+}
+
+.square-flagged {
+    background-color: firebrick;
+    border: 5px outset rgb(155, 30, 30);
+}

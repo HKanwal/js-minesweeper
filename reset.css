@@ -1,0 +1,11 @@
+/**
+ * Define default styles to minimalize style inconsistencies across different browsers.
+ *
+ * Author: Harkeerat Kanwal
+ * Revised: April 16, 2020
+ */
+
+/* Zero out default body margin. */
+body {
+    margin: 0;
+}
